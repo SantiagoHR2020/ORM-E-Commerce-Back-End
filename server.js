@@ -1,5 +1,4 @@
 const express = require('express');
-const { sync } = require('./models/Tag');
 const routes = require('./routes');
 const sequelize = require("./config/connection");
 
